@@ -6,3 +6,5 @@ const routes=express.Router()
 roustes.post('/',authorizeMiddleware,createBlog)
 
 module.exports=routes
+
+//blog routes
